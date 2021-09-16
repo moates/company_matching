@@ -17,3 +17,13 @@ Notes:
 * all people should get roughly the same number of matches
 * the average person isn't a customer of B2B companies such as data brokers.
 
+## Approach
+Model this as a flow network with costs. Maximize the flow of people to companies, minimize the cost of the match. The 'cost' is how much you care about matching customers over non-customers.
+https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.flow.max_flow_min_cost.html
+
+## How to run
+1. Download Jupyter, Python3
+2. Install the Python packages: networkx, pandas (python -m pip install networkx)
+3. Clone this repository.
+4. In the folder, run jupyter notebook
+
